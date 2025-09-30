@@ -5,7 +5,7 @@ import "./App.css";
 import ProfileCard from "./components/ProfileCard";
 import type { Profile } from "./types/types";
 import Navtac from "./components/Navtac";
-import Sample from "./components/sample"
+import Sample from "./components/Sample"
 
 function App() {
   const profile1: Profile = {
@@ -86,7 +86,7 @@ function App() {
         </div>
       </div>
     <Navtac num1={6}  num2={2} />
-     <Sample />
+     <Sample  />
     </>
 
   );
